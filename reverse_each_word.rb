@@ -5,4 +5,6 @@ def reverse_each_word(sentance1)
   array.each{|word| reversed.push(word.reverse)}
   
   reversed.join(" ")
+  
+  
 end 
