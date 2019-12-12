@@ -6,5 +6,10 @@ def reverse_each_word(sentance1)
   
   reversed.join(" ")
   
+  array = sentance1.split(" ")
+  reversed = []
   
+  array.collect{|word| reversed.push(word.reverse)}
+  
+  reversed.join(" ")
 end 
